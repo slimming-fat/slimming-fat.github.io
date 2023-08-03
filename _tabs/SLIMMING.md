@@ -14,11 +14,8 @@ order: 1
 * For linux, add executable permissions to the [`install`](https://github.com/slimming-fat/slimming-fat.github.io/blob/master/Slimming/install) file: `chmod +x install`. Then run `/install`.
 
 ## Step 3: Run slimming
-
-The `cd` command moves into the project directory
-
-* Command
-
+* Command \\
+The `cd` command moves into the project directory\\
 Detect single module project (run path: same level directory of single module Pom file)
 
 ```java
@@ -36,7 +33,8 @@ mvn neu.lab:slimming:1.0:multiModuleCheck
 The following parameter, defaultValue, is the default parameter; if not set, the default parameter will be the value. The way to set the parameters is to add them on the command line
 
 ```
--D<property>= propertyValue
+-D<property> = propertyValue
+Eg: -DClassCallGraph = true
 ```
 
 ```java
@@ -48,7 +46,7 @@ The following parameter, defaultValue, is the default parameter; if not set, the
 ```
 
 ## Step 4: Viewing the results
-* Redundant dependency detection reports
+* Bloated dependency detection reports
 Path: In /bloatedOutput folder under project root by default\\
 **The output path can be customized by using the call interface or the `-DoutDir` command-line argument**
 ```java
@@ -73,11 +71,11 @@ ALL DEPENDENCY[9]:
   UNUSED INHERIT DIRECT DEPENDENCY[0]:
   UNUSED INHERIT INDIRECT DEPENDENCY[0]:
 [INFO] Repair Case
-[INFO] After Repair Pom Path:D:/Maven/project/spring-boot/demo/pom-result.xml    // Redundant dependency repair scheme path
+[INFO] After Repair Pom Path:D:/Maven/project/spring-boot/demo/pom-result.xml    // Bloated dependency repair scheme path
 Print TreeCallGraph.dot, red is bloated, gray is unload
 ```
 
-* Redundant dependency repair scheme
+* Bloated dependency repair scheme
 
 The fix is named：`pom-result.xml`\\
 Path: View the path After Repair Pom Path in the redundancy detection report log
