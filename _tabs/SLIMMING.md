@@ -1,17 +1,17 @@
 ---
 icon: fas fa-stream
-order: 2
+order: 1
 ---
 
 
 ## Step 1: DownLoads
 
-[**Slimming**](https://github.com/slimming-fat.github.io/main/Slimming/tools.7z)
+[**Slimming**](https://github.com/slimming-fat/slimming-fat.github.io/blob/master/Slimming/tools.7z)
 
 
 ## Step 2: Install
-* For windows, run install.bat directly
-* For linux, add executable permissions to the 'install' file: 'chmod +x install'. Then run './install '.
+* For windows, run [`install.bat`](https://github.com/slimming-fat/slimming-fat.github.io/blob/master/Slimming/install.bat) directly
+* For linux, add executable permissions to the [`install`](https://github.com/slimming-fat/slimming-fat.github.io/blob/master/Slimming/install) file: `chmod +x install`. Then run `/install`.
 
 ## Step 3: Run slimming
 

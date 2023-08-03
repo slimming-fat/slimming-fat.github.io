@@ -17,10 +17,10 @@ order: 4
 > **Type 4**: Annotations\\
 > **Others**: Other manners (e.g., retrieving from the Internet)
 {: .prompt-tip }
-[**Tamiflex Results**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/api_label.xls)
+[**Tamiflex Results**](https://github.com/slimming-fat/slimming-fat.github.io/tree/master/data/RQ1-tamiflex.csv)
 ## RQ3 Statistics of the 4,035 projects in our large-scale study
 > Collect the conditions for the Java project
 > * Popularity: more than 5 Stars
 > * Complexity: more than five direct dependencies
 {: .prompt-tip }
-[**large-scale study**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/api_label.xls)
+[**large-scale study**](https://github.com/slimming-fat/slimming-fat.github.io/tree/master/data/RQ3-large-scale study.xlsx)
