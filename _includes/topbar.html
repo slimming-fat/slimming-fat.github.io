@@ -1,10 +1,7 @@
 <!-- The Top Bar -->
 
 <div id="topbar-wrapper">
-  <div
-    id="topbar"
-    class="container d-flex align-items-center justify-content-between h-100"
-  >
+ <div id="topbar" class="container d-flex align-items-center justify-content-between h-100 pl-3 pr-3 pl-md-4 pr-md-4"> 
     <span id="breadcrumb">
       {% assign paths = page.url | split: '/' %}
 
@@ -53,7 +50,7 @@
       {% endif %}
     </div>
 
-    <i id="search-trigger" class="fas fa-search fa-fw"></i>
+<!--   <i id="search-trigger" class="fas fa-search fa-fw"></i>
     <span id="search-wrapper" class="align-items-center">
       <i class="fas fa-search fa-fw"></i>
       <input
@@ -65,6 +62,6 @@
         placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
       >
     </span>
-    <span id="search-cancel">{{ site.data.locales[include.lang].search.cancel }}</span>
+    <span id="search-cancel">{{ site.data.locales[include.lang].search.cancel }}</span> -->
   </div>
 </div>

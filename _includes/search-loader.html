@@ -10,11 +10,11 @@
     <!-- {categories} -->
     <!-- {tags} -->
   </div>
-  <p>{snippet}</p>
+  <!-- <p>{snippet}</p> -->
 </div>
-<!-- {% endcapture %} -->
+{% endcapture %} -->
 
-<!-- {% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %} -->
+{% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
 
 <script>
   /* Note: dependent library will be loaded in `js-selector.html` */

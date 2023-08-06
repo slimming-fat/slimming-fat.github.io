@@ -34,9 +34,7 @@ layout: compress
 
     <div id="mask"></div>
 
-    <button id="back-to-top" aria-label="back-to-top" class="btn btn-lg btn-box-shadow">
-      <i class="fas fa-angle-up"></i>
-    </button>
+    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button" style="display: inline;"> <i class="fas fa-angle-up"></i> </a>
 
     {% if site.pwa.enabled %}
       <div
@@ -48,7 +46,7 @@ layout: compress
         data-bs-animation="true"
         data-bs-autohide="false"
       >
-        <div class="toast-header">
+       <div class="toast-header">
           <button
             type="button"
             class="btn-close ms-auto"

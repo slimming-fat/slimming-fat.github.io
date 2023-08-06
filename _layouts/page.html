@@ -5,11 +5,8 @@ layout: default
 {% include lang.html %}
 {% include origin-type.html %}
 
-{% if layout.tail_includes %}
-  {% assign has_tail = true %}
-{% endif %}
 
-<div class="row{% unless has_tail %} mb-5{% endunless %}">
+<div class="row">
   <!-- core -->
   <div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pe-xl-4">
     {% capture padding %}
@@ -43,26 +40,13 @@ layout: default
 
   <!-- panel -->
   <div id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
-    <div class="access">
-      {% include_cached update-list.html lang=lang %}
-      {% include_cached trending-tags.html lang=lang %}
-    </div>
-
+     <div id="d-help">
+        <img id="help-img" class="d-help-img" alt="help" src="/assets/img/help.gif">
+     </div>
     {% for _include in layout.panel_includes %}
       {% assign _include_path = _include | append: '.html' %}
       {% include {{ _include_path }} lang=lang %}
     {% endfor %}
   </div>
 </div>
-
-<!-- tail -->
-{% if has_tail %}
-  <div class="row">
-    <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-3 pe-xl-4 mt-5">
-      {% for _include in layout.tail_includes %}
-        {% assign _include_path = _include | append: '.html' %}
-        {% include {{ _include_path }} lang=lang %}
-      {% endfor %}
-    </div>
-  </div>
-{% endif %}
+<script src="/assets/js/help.js"></script>
