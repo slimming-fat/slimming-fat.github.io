@@ -11,9 +11,9 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 @font-face {
 
   font-family: 'notika-icon';
-  
+
   src: url('/assets/font/notika-icon.ttf');
-  
+
   }
 /* append your custom style below */
 .table.table-striped>thead>tr>th {
@@ -467,3 +467,4 @@ element.style {
   border-width: medium;
   border: double;
 }
+

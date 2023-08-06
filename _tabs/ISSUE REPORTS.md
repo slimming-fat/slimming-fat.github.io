@@ -2,10 +2,10 @@
 layout: post
 icon: fas fa-tag
 order: 2
-
+title: Issue Reports
 ---
 
-| Project Name | Stars | Forks | #Bloated Dependencies | #Vulnerabilities | #Dependency Conflicts | #Incompatible Licenses | #Outdated Dependencies | Issue ID | Stauts |
+| Project Name | Stars | Forks | #Bloated<br>Dependencies | #Vulnerabilities | #Dependency<br>Conflicts | #Incompatible<br>Licenses | #Outdated<br>Dependencies | Issue ID | Stauts |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Tutorials | 34.7k | 53.9k | 8 | 0 | 0 | 0 | 5 | [#13568](https://github.com/eugenp/tutorials/pull/13568) | Fixed |
 | Openapi-Generator | 17.2k | 5.5k | 11 | 0 | 0 | 0 | 8 | [#9768](https://github.com/OpenAPITools/openapi-generator/pull/9768) | Fixed |
@@ -42,7 +42,7 @@ order: 2
 | Alldata | 1.8k | 692 | 4 | 0 | 0 | 0 | 3 | [#50](https://github.com/alldatacenter/alldata/pull/50) | Fixing |
 | Springboot-Jwt-Starter | 680 | 272 | 2 | 0 | 0 | 0 | 0 | [#34](https://github.com/bfwg/springboot-jwt-starter/pull/34) | Fixing |
 | Tez | 428 | 403 | 9 | 1 | 0 | 0 | 5 | [#127](https://github.com/apache/tez/pull/127) | Fixing |
-| Amazon-Kinesis-Video-Streams-Producer-Sdk-Java | 77 | 79 | 9 | 0 | 0 | 0 | 5 | [#135](https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-java/pull/135) | Fixing |
+| Amazon-Kinesis-Video-<br>Streams-Producer-Sdk-Java | 77 | 79 | 9 | 0 | 0 | 0 | 5 | [#135](https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-java/pull/135) | Fixing |
 | Osm2World | 481 | 118 | 17 | 0 | 0 | 0 | 3 | [#174](https://github.com/tordanik/OSM2World/pull/174) | Confirmed |
 | Kafka-Connect-Mq-Source | 86 | 81 | 8 | 0 | 0 | 0 | 4 | [#83](https://github.com/ibm-messaging/kafka-connect-mq-source/pull/83) | Confirmed |
 | Skywalking-Java | 576 | 449 | 11 | 1 | 0 | 0 | 3 | [#172](https://github.com/apache/skywalking-java/pull/172) | Rejected |
@@ -70,6 +70,6 @@ order: 2
 | Kontraktor | 343 | 48 | 11 | 0 | 0 | 2 | 8 | [#119](https://github.com/RuedigerMoeller/kontraktor/pull/119) | Pending |
 | Myblog | 322 | 88 | 12 | 0 | 0 | 0 | 12 | [#8](https://github.com/xiongsihao/myblog/pull/8) | Pending |
 | Milton2 | 161 | 117 | 5 | 0 | 0 | 2 | 4 | [#176](https://github.com/miltonio/milton2/pull/176) | Pending |
-| Shardingsphere-Elasticjob-Ui | 150 | 91 | 4 | 2 | 0 | 0 | 2 | [#153](https://github.com/apache/shardingsphere-elasticjob-ui/pull/153) | Pending |
+| Shardingsphere-<br>Elasticjob-Ui | 150 | 91 | 4 | 2 | 0 | 0 | 2 | [#153](https://github.com/apache/shardingsphere-elasticjob-ui/pull/153) | Pending |
 | Jacorb | 71 | 82 | 5 | 0 | 1 | 0 | 2 | [#299](https://github.com/JacORB/JacORB/pull/299) | Pending |
 | Karamel | 37 | 22 | 9 | 0 | 0 | 0 | 7 | [#206](https://github.com/karamelchef/karamel/pull/206) | Pending |
