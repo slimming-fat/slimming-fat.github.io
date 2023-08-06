@@ -27,4 +27,5 @@ order: 4
 > * Popularity: more than 5 Stars
 > * Complexity: more than five direct dependencies
 {: .prompt-tip }
-[**Download this dataset used in large-scale analysis**](https://github.com/slimming-fat/slimming-fat.github.io/tree/master/data/RQ3-large-scale study.xlsx)
+[**Download this dataset used in large-scale analysis**](https://github.com/slimming-fat/slimming-fat.github.io/tree/master/data/RQ3-large-scale study.xlsx)\\
+[**Download this dataset used in RQ3**](https://github.com/slimming-fat/slimming-fat.github.io/tree/master/data/RQ3 ISSUE REPORTS.xlsx)

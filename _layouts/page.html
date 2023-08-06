@@ -41,7 +41,7 @@ layout: default
   <!-- panel -->
   <div id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
      <div id="d-help">
-        <img id="help-img" class="d-help-img" alt="help" src="/assets/img/help.gif">
+        <img id="help-img" style="cursor:pointer;" class="d-help-img" alt="help" src="/assets/img/help.gif">
      </div>
     {% for _include in layout.panel_includes %}
       {% assign _include_path = _include | append: '.html' %}
@@ -50,3 +50,14 @@ layout: default
   </div>
 </div>
 <script src="/assets/js/help.js"></script>
+ <div id="d-help-win" class="d-help-win" style="display: none;">
+      <div id="win-title">Help
+          <span id="d-help-colse" clss="close_2" class="close_2">
+              ×
+          </span>
+      </div>
+      <div id="win-content">
+          <center><strong><font size="4">We provide a demo of using the Slimming tool</font></strong></center>
+          <img src="/assets/img/guide.gif" alt="avatar">
+      </div>
+  </div>
