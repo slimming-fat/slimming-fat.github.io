@@ -1,0 +1,1 @@
+Collect results for only 6 projects in Dacapo (chart、eclipse、fop、hsqldb、pmd、xalan)
