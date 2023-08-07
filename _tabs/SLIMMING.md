@@ -18,7 +18,7 @@ order: 1
 ```java
 mvn neu.lab:slimming:1.0:singleModuleCheck
 ```
-#### Detect multi-module items
+#### Detect multi-module project
 ```java
 mvn neu.lab:slimming:1.0:multiModuleCheck
 ```
@@ -29,7 +29,7 @@ mvn neu.lab:slimming:1.0:multiModuleCheck
 | `Repair`         | `boolean` | If this is true, Slimming creates a debloated version of the pom without unused dependencies called pom-result.xml.**Default value is**: `true`|
 | `TreeCallGraph`  | `boolean` | If this is true, Slimming can obtain a dependency call graph.**Default value is**: `true`   |
 | `ClassCallGraph` | `boolean` | If this is true, Slimming can obtain a class call graph.**Default value is**: `false` |
-| `reflect`        | `boolean` | If this is true, Slimming can performed class-level reflection analysis.**Default value is**: `true`                        |
+| `reflect`        | `boolean` | If this is true, Slimming performs class-level reflection analysis.**Default value is**: `true`                        |
 | `outDir`         | `String`  | Customize the storage path for storing the analysis results of bloated dependencies  |
 
 ## Step 4: Obtain the results
